@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding:0;
+}
+
+body{
+	background: rgba(120,130,100,0.5);
+}
+.conteneur
+{
+	width: 900px;
+	margin: auto;
+	box-shadow: 0 15px 25px lightblue,0 15px 50px lightblue,0 15px 100px lightblue,0 15px 200px lightblue;
+}
+.image{
+	width: 900px;
+	height: 200px;
+}
+.menu{
+	background: lightblue;
+}
+.menu nav ul{
+	display:flex;
+	list-style-type: none;
+
+}
+.menu nav ul li a{
+	text-decoration: none;
+	color: white;
+	margin:15px;
+	padding: 15px;
+	line-height: 50px;
+	font-size: 25px;
+}
+.menu nav ul li a:hover{
+	text-decoration: underline;
+	color:black;
+}
+.contenu{
+	display:flex;
+}
+.gauche{
+	width: 80%;
+}
+.droite{
+	background: black;
+
+}
+.droite h1{
+	font-size: 32px;
+	color: white;
+	padding-left:22px; 
+	padding-top: 50px;
+}
+.droite ul{
+	list-style-type: none;
+	padding-left: 25px;
+}
+.droite ul li a{
+	font-size: 28px;
+	text-decoration: none;
+	color: rgba(255,255,255,0.6);
+	padding: 10px;
+	line-height: 25px;
+}
+.droite ul li:hover{
+	cursor: pointer;
+	background: lightblue;
+}
+.gauche section article h1{
+	font-size: 38px;
+	color: tomato;
+	margin-left: 20px;
+}
+.gauche section article p{
+	font-family: consolas;
+	font-size: 20px;
+	text-align: justify;
+	padding: 15px; 
+	text-indent: 10ch;
+	line-height: 3ch;
+}
+.gauche section article p:first-letter{
+	font-weight: bold;
+	font-size: 4em;
+	color: blue;
+	font-family: chiller;
+	margin-right: 20px;
+}
+footer{
+	background-color:yellow;
+	height: 120px;
+}
+.pd{
+	text-align: center;
+	white-space: nowrap;
+	animation:anime1 7s steps(39) infinite;
+	overflow: hidden;
+	font-size: 30px;
+	border-right: 2px solid black
+}
+@keyframes anime1 {
+	0%{
+		width: 0ch;
+
+	}
+	100%{
+		width: 41ch;
+	}
+	
+}
+
